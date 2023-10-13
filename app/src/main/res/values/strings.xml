@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">P9A11y</string>
+    <string name="cas_3_formulaire_de_connexion">Cas 3: Formulaire de connexion</string>
+    <string name="cas_2_carte_de_suggestion_de_recettes">Cas 2 : Carte de suggestion de recettes</string>
+    <string name="cas_1_bouton_d_ajout_au_panier">Cas 1 : Bouton d\'ajout au panier</string>
+    <string name="cas_1">Cas 1 :</string>
+    <string name="impossible_d_avoir_une_quantit_n_gative">Impossible d\'avoir une quantité négative</string>
+    <string name="cas_2">Cas 2 :</string>
+    <string name="cd_ajouter_aux_favoris">Ajouter aux favoris</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="demo_cookie_text">Cookies au chocolat</string>
+    <string name="recette_ajout_au_panier">Recette ajoutée au panier</string>
+    <string name="cas_3">Cas 3 :</string>
+    <string name="pseudo">Pseudonyme :</string>
+    <string name="validate">Valider</string>
+    <string name="demo_product_name">Nom du produit</string>
+
+</resources>
