@@ -22,6 +22,12 @@
     <string name="favourite_added">Ajouté aux favoris</string>
     <string name="favourite_removed">Retiré des favoris</string>
     <string name="recipe_added_to_basket">Recette ajoutée au panier</string>
+    <string name="navigation_to_recipe">Navigation vers la recette</string>
+    <string name="valid_entry">Saisie valide. Vous pouvez continuer.</string>
+    <string name="no_valid_entry">Saisie invalide. Veuillez entrer au moins trois caractères.</string>
+    <string name="pseudo_entry">Entrez votre pseudonyme</string>
+    <string name="pseudo_must_have_3_letters">Le pseudonyme doit contenir au moins trois caractères.</string>
+    <string name="pseudo_valid">Pseudonyme valide !</string>
 
 
 

@@ -3,39 +3,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Case3Activity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".Case3Activity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/cas_3"
         style="@style/TextAppearance.MaterialComponents.Headline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        />
+        android:text="@string/cas_3" />
 
 
     <TextView
+        android:id="@+id/pseudoLabel"
+        style="@style/TextAppearance.MaterialComponents.Body1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:labelFor="@id/pseudoEdit"
         android:text="@string/pseudo"
-        style="@style/TextAppearance.MaterialComponents.Body1"
 
         />
 
     <EditText
         android:id="@+id/pseudoEdit"
         android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:autofillHints="username"
+        android:hint="@string/pseudo_entry"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="text"
-        />
+        android:text="@string/pseudo_must_have_3_letters"
+        android:textColor="@color/red400"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:importantForAccessibility="no"/>
+    <TextView
+        android:id="@+id/successMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pseudo_valid"
+        android:textColor="@color/green400"
+        android:visibility="gone" />
+
 
     <Button
         android:id="@+id/validateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/validate"
-        />
+        android:text="@string/validate" />
+
 
 </LinearLayout>
